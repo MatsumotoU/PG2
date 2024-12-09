@@ -108,6 +108,7 @@ xcopy C:\KamataEngine\DirectXGame\Resources "$(OutDirFullPath)NoviceResources" /
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Class\Bullet.cpp" />
     <ClCompile Include="C:\KamataEngine\DirectXGame\base\StringUtility.cpp" />
     <ClCompile Include="C:\KamataEngine\DirectXGame\base\DirectXCommon.cpp" />
     <ClCompile Include="C:\KamataEngine\DirectXGame\base\WinApp.cpp" />
@@ -115,9 +116,21 @@ xcopy C:\KamataEngine\DirectXGame\Resources "$(OutDirFullPath)NoviceResources" /
     <ClCompile Include="C:\KamataEngine\DirectXGame\base\TextureManager.cpp" />
     <ClCompile Include="C:\KamataEngine\DirectXGame\2d\ImGuiManager.cpp" />
     <ClCompile Include="C:\KamataEngine\Adapter\Novice.cpp" />
+    <ClCompile Include="Class\Common\Camera.cpp" />
+    <ClCompile Include="Class\Common\Collision2D.cpp" />
+    <ClCompile Include="Class\Common\InputManager.cpp" />
+    <ClCompile Include="Class\Common\MyEasing.cpp" />
+    <ClCompile Include="Class\Common\MyFileIO.cpp" />
+    <ClCompile Include="Class\Common\MyMath.cpp" />
+    <ClCompile Include="Class\Common\MyPhysics2D.cpp" />
+    <ClCompile Include="Class\Common\TimeManager.cpp" />
+    <ClCompile Include="Class\Enemy.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Class\Common\Render.cpp" />
+    <ClCompile Include="Class\Player.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Class\Bullet.h" />
     <ClInclude Include="C:\KamataEngine\DirectXGame\base\StringUtility.h" />
     <ClInclude Include="C:\KamataEngine\DirectXGame\math\Matrix4x4.h" />
     <ClInclude Include="C:\KamataEngine\DirectXGame\math\Vector2.h" />
@@ -145,6 +158,25 @@ xcopy C:\KamataEngine\DirectXGame\Resources "$(OutDirFullPath)NoviceResources" /
     <ClInclude Include="C:\KamataEngine\DirectXGame\input\Input.h" />
     <ClInclude Include="C:\KamataEngine\DirectXGame\scene\GameScene.h" />
     <ClInclude Include="C:\KamataEngine\Adapter\Novice.h" />
+    <ClInclude Include="Class\Common\Camera.h" />
+    <ClInclude Include="Class\Common\Collision2D.h" />
+    <ClInclude Include="Class\Common\GameObject.h" />
+    <ClInclude Include="Class\Common\InputManager.h" />
+    <ClInclude Include="Class\Common\MyCommon.h" />
+    <ClInclude Include="Class\Common\MyEasing.h" />
+    <ClInclude Include="Class\Common\MyFileIO.h" />
+    <ClInclude Include="Class\Common\MyMath.h" />
+    <ClInclude Include="Class\Common\MyMath\MathInclude.h" />
+    <ClInclude Include="Class\Common\MyMath\Matrix2x2.h" />
+    <ClInclude Include="Class\Common\MyMath\Matrix3x3.h" />
+    <ClInclude Include="Class\Common\MyMath\Transform.h" />
+    <ClInclude Include="Class\Common\MyMath\Vector2.h" />
+    <ClInclude Include="Class\Common\MyMath\Vector3.h" />
+    <ClInclude Include="Class\Common\MyPhysics2D.h" />
+    <ClInclude Include="Class\Common\TimeManager.h" />
+    <ClInclude Include="Class\Enemy.h" />
+    <ClInclude Include="Class\Common\Render.h" />
+    <ClInclude Include="Class\Player.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

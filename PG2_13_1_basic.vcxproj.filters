@@ -38,6 +38,42 @@
     <ClCompile Include="C:\KamataEngine\DirectXGame\base\StringUtility.cpp">
       <Filter>KamataEngine\Source</Filter>
     </ClCompile>
+    <ClCompile Include="Class\Common\Camera.cpp">
+      <Filter>KamataEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Common\Collision2D.cpp">
+      <Filter>KamataEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Common\InputManager.cpp">
+      <Filter>KamataEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Common\MyEasing.cpp">
+      <Filter>KamataEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Common\MyFileIO.cpp">
+      <Filter>KamataEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Common\MyMath.cpp">
+      <Filter>KamataEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Common\MyPhysics2D.cpp">
+      <Filter>KamataEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Common\TimeManager.cpp">
+      <Filter>KamataEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Enemy.cpp">
+      <Filter>KamataEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Common\Render.cpp">
+      <Filter>KamataEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Player.cpp">
+      <Filter>KamataEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Bullet.cpp">
+      <Filter>KamataEngine</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\KamataEngine\DirectXGame\audio\Audio.h">
@@ -111,5 +147,25 @@
     <ClInclude Include="C:\KamataEngine\DirectXGame\base\StringUtility.h">
       <Filter>KamataEngine\Include</Filter>
     </ClInclude>
+    <ClInclude Include="Class\Common\Camera.h" />
+    <ClInclude Include="Class\Common\Collision2D.h" />
+    <ClInclude Include="Class\Common\GameObject.h" />
+    <ClInclude Include="Class\Common\InputManager.h" />
+    <ClInclude Include="Class\Common\MyCommon.h" />
+    <ClInclude Include="Class\Common\MyEasing.h" />
+    <ClInclude Include="Class\Common\MyFileIO.h" />
+    <ClInclude Include="Class\Common\MyMath.h" />
+    <ClInclude Include="Class\Common\MyPhysics2D.h" />
+    <ClInclude Include="Class\Common\TimeManager.h" />
+    <ClInclude Include="Class\Common\MyMath\MathInclude.h" />
+    <ClInclude Include="Class\Common\MyMath\Matrix2x2.h" />
+    <ClInclude Include="Class\Common\MyMath\Matrix3x3.h" />
+    <ClInclude Include="Class\Common\MyMath\Transform.h" />
+    <ClInclude Include="Class\Common\MyMath\Vector2.h" />
+    <ClInclude Include="Class\Common\MyMath\Vector3.h" />
+    <ClInclude Include="Class\Enemy.h" />
+    <ClInclude Include="Class\Common\Render.h" />
+    <ClInclude Include="Class\Player.h" />
+    <ClInclude Include="Class\Bullet.h" />
   </ItemGroup>
 </Project>
